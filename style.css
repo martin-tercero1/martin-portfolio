@@ -192,6 +192,7 @@ body {
 
 .project-button-container a {
   margin-left: 15px;
+  padding: 0.75rem;
 }
 
 .projects-section button {
@@ -213,7 +214,7 @@ body {
 
 .project-card {
   min-width: 290px;
-  max-width: 345px;
+  max-width: min-content;
   max-height: 450px;
   background-color: #222525;
   border-radius: 6px;
@@ -277,7 +278,7 @@ body {
 .hero-section {
   display: grid;
   place-content: center;
-  background-image: url("/assets/img/hero-background-software.jpg");
+  background-image: url("/assets/img/hero-background-software.webp");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
