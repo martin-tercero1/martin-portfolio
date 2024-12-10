@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Blog.astro
+layout: ../../layouts/Base.astro
 title: "Hello World"
 author: "Martin Tercer"
 ---
