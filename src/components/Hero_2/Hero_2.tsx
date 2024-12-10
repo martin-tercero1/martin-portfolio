@@ -7,7 +7,7 @@ const Hero_2: React.FC<Hero_2Props> = ({ title }) => {
       <section className=" hero-section">
         <div className="information-container">
           <div className="image-container" id="personal-picture">
-            <img src="/assets/img/Prof Pic.webp" loading="eager" alt="Picture of me"/>
+            <img src="/img/Prof Pic.webp" loading="eager" alt="Picture of me"/>
           </div>
 
           <div className="information">

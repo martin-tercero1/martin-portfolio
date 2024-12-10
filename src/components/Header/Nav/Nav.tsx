@@ -21,7 +21,7 @@ const Nav: React.FC = () => {
   ];
 
   return (
-    <nav className="flex gap-8 min-w-[240px] min-w-[300px]">
+    <nav className="flex gap-8 min-w-[300px]">
       {links.map((link) => {
         return (
           <a className="text-[1.8rem] hover:text-primary-one" href={link.path}>

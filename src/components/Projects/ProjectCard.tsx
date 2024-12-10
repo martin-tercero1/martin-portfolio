@@ -28,7 +28,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, image, description, so
               <button>
                 <img
                   className="card-github-logo"
-                  src="/icons/github.svg"
+                  src="./icons/github.svg"
                   alt="github-logo"
                 />
               </button>
@@ -40,7 +40,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, image, description, so
               <button>
                 <img
                   className="card-link-logo"
-                  src="/icons/external-link.svg"
+                  src="./icons/external-link.svg"
                   alt="external-link-logo"
                 />
               </button>

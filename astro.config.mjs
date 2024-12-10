@@ -10,7 +10,10 @@ import mdx from '@astrojs/mdx';
 // https://astro.build/config
 export default defineConfig({
   site: "https://martin-tercero.com",
-  integrations: [tailwind({
-    applyBaseStyles: false,
-  }), react(), mdx()]
+  integrations: [tailwind(), react(), mdx()],
+  vite: {
+    build: {
+      assetsDir: '_astro'
+    }
+  }
 });

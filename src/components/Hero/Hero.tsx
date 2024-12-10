@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ title }) => {
             <Button text="Contact Me" link="mailto:martintercero20@hotmail.com"/>
         </div>
 
-        <img src="/martin-animated.png" alt="" />
+        <img src="./martin-animated.png" alt="" />
     </main>
   );
 };
