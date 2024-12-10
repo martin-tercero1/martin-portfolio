@@ -1,0 +1,25 @@
+---
+import Header from "@/components/Header/Header"
+import Hero from "@/components/Hero/Hero"
+import Skills from "@/components/Skills/Skills"
+import Layout from "@/layouts/Layout.astro"
+import About from "@/components/About/About"
+import Projects from "@/components/Projects/Projects"
+import Footer from "@/components/Footer/Footer"
+
+import { getCollection } from "astro:content";
+const projects = await getCollection("projects");
+
+import '@/styles/globals.css'
+---
+
+<!-- Should get the collection of projects to display them-->
+
+<Layout title="Martin Tercero | Jr. Fullstack Developer">
+	<Header title="Header"></Header>
+	<Hero title="Hero"/>
+	<Skills title="Skills"></Skills>
+	<About title="About"></About>
+	<Projects projects={projects} />
+	<Footer title="Footer"></Footer>
+</Layout>

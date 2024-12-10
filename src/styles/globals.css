@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        @apply text-[62.5%] scroll-smooth;
+    }
+    body {
+        @apply font-sans bg-primary-body text-primary-white leading-loose mx-[24px] md:mx-[70px];
+        /* mx-[180px] */
+    }
+
+    a {
+        @apply text-primary-white;
+    }
+}
+
+code {
+    font-family:
+        Menlo,
+        Monaco,
+        Lucida Console,
+        Liberation Mono,
+        DejaVu Sans Mono,
+        Bitstream Vera Sans Mono,
+        Courier New,
+        monospace;
+}
